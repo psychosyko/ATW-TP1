@@ -1,0 +1,163 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #FFF;
+}
+
+.event-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.event-header {
+    position: relative;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.error-text{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+.event-header img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.genre-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #800080;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top:10px;
+    margin-right:10px;
+
+}
+
+.event-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.event-details h1, .event-details p {
+    margin: 10px 0;
+}
+
+.genres {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.genre {
+    background-color: #800080;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+
+.info-box {
+    background-color: #f0f0f0; 
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.event-info {
+    margin: 10px 0;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.book-now {
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.book-now:hover {
+    background-color: #FFC107;
+}
+.back_arrow{
+    height: 40%;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.admin-buttons {
+    display: flex;
+    width: 100%; 
+    max-width: 520px; 
+    margin: auto;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; 
+}
+
+.admin-button {
+    background-color: #800080;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1; 
+    margin: 0 10px; 
+    min-width: 100px; 
+    text-align: center; 
+}
+
+.admin-button:hover {
+    background-color: #5a005a;
+}
+
+@media (max-width: 600px) {
+    .admin-buttons {
+        padding: 10px; 
+        flex-direction: column; 
+    }
+
+    .admin-button {
+        margin: 10px 0; 
+    }
+}
+
+
+
+#message {
+    padding: 12px 24px;
+    margin: 12px;
+    display: flex;
+}

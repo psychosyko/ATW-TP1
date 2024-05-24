@@ -1,0 +1,129 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-top: 100px;
+}
+
+.login-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.upload-btn-wrapper {
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.upload-btn-wrapper label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.btn {
+    border: 2px solid #ccc;
+    color: #666;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.admin-toggle button {
+    margin: 10px 5px;
+    padding: 5px 10px;
+}
+
+button {
+    width: 100%;
+    padding: 20px 4px 20px 4px;
+    background: #F5E701;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    gap: 4px;
+    opacity: 0px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.register {
+    margin-top: 20px;
+}
+
+.register a {
+    color: #800080;
+}
+
+.admin-toggle {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.admin-toggle label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.admin-toggle button {
+    border: 2px solid #ccc;
+    color: #666;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.admin-toggle button:last-child {
+    margin-right: 0;
+}

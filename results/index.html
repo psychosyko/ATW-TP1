@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Pageeeeee</title>
+    <link rel="stylesheet" href="results.module.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Groovibe</h1>
+        <img src="profile_picture.png" alt="User Profile" class="profile">
+    </header>
+    <main class="main-content">
+        <section class="search-section">
+            <div class="title-box">
+                <h2>Find concerts near you</h2>
+            </div>
+            <div class="search-box">
+                <button class="search-icon">
+                    <img src="magnifier_icon.png" alt="Search">
+                </button>
+                <input type="text" placeholder="Search">
+            </div>
+                        <div class="filters">
+                <select name="date" id="date">
+                    <option value="">Date</option>
+                </select>
+                <select name="genre" id="genre">
+                    <option value="">Genre</option>
+                </select>
+                <select name="location" id="location">
+                    <option value="">Location</option>
+                </select>
+            </div>
+            <button type="submit">Apply filters</button>
+        </section>
+        <h1 class="results-title">Here is your search for Metallica:</h1>
+        <section class="concert-list">
+            <div class="concert">
+                <div class="concert-image-wrapper">
+                    <img src="banner.png" alt="Banner" class="concert-image">
+                    <button class="genre">genre</button>
+                </div>
+                <div class="concert-info">
+                    <h3>Concert name</h3>
+                    <p>Location</p>
+                    <p>Date | Hours</p>
+                    <span>Price</span>
+                </div>
+            </div>
+
+            <div class="concert">
+                <div class="concert-image-wrapper">
+                    <img src="banner.png" alt="Banner" class="concert-image">
+                    <button class="genre">genre</button>
+                </div>
+                <div class="concert-info">
+                    <h3>Concert name</h3>
+                    <p>Location</p>
+                    <p>Date | Hours</p>
+                    <span>Price</span>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

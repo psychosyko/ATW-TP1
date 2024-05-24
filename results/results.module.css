@@ -1,0 +1,160 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #FFF;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    height: 60px;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.title-box h2 {
+    text-align: center;
+    color: #000;
+    margin: 20px 0;
+}
+
+.search-section {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: white;
+    overflow: hidden; 
+    margin-bottom: 10px;
+}
+
+.search-icon {
+    background: black;
+    border: none;
+    padding: 5px 10px; 
+    cursor: pointer;
+}
+
+.search-icon img {
+    width: 20px;
+    height: auto;
+    display: block;
+    color: white;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="text"]::placeholder {
+    color: #aaa;
+}
+
+
+.filters select {
+    width: auto;
+    height: 40px;
+    padding: 4px 20px 4px 20px;
+    gap: 8px;
+    border-radius: 4px;
+    opacity: 0px;
+}
+
+button {
+    width: auto;
+    padding: 10px 20px;
+    background: #F5E701;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+button:hover {
+    background-color: #9A2EFF;
+}
+
+.concert-list {
+    width: 100%;
+    max-width: 600px;
+}
+
+.concert {
+    background-color: #f0f0f0;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.concert-image-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.concert-image {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px;
+}
+
+.genre {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    background-color: #800080;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.concert-info {
+    width: 100%; 
+    text-align: left; 
+}
+
+.concert h3, .concert p, .concert span {
+    margin: 5px 0;
+}
+
+.results-title{
+    text-align: center;
+}
